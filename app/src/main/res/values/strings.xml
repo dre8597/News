@@ -3,4 +3,7 @@
     <string name="place_holder_date">Dec 12, 2017</string>
     <string name="Place_holder_site">Cnn</string>
     <string name="Article_title_ph">Trump wants to build wall</string>
+    <string name="no_internet">Please connect to internet first</string>
+    <string name="no_news">No news found. ;/</string>
+    <string name="name_holder">Smith Dixon</string>
 </resources>

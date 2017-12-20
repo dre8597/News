@@ -18,7 +18,7 @@ public class News {
     /**
      * date of the news article in milliseconds
      */
-    private long mDate;
+    private String mDate;
 
 
     /**
@@ -26,11 +26,17 @@ public class News {
      */
     private String mUrl;
 
-    public News(String articleTitle, String author, long date, String url) {
+    /**
+     * Website URL of the news article
+     */
+    private String mSite;
+
+    public News(String articleTitle, String author, String site, String date, String url) {
         mArticleTitle = articleTitle;
         mAuthor = author;
         mDate = date;
         mUrl = url;
+        mSite = site;
     }
 
     /**
@@ -50,7 +56,7 @@ public class News {
     /**
      * Returns the date of the article.
      */
-    public long getDate() {
+    public String getDate() {
         return mDate;
     }
 
@@ -59,6 +65,12 @@ public class News {
      */
     public String getUrl() {
         return mUrl;
+    }
+    /**
+     * Returns the url to find more information about the article.
+     */
+    public String getSite() {
+        return mSite;
     }
 
 
